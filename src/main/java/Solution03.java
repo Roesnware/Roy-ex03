@@ -8,9 +8,9 @@ public class Solution03 {
     Scanner 'authorInput' = scanner for author
     Scanner 'quoteInput' = scanner for quote
     print 'What is the quote? '
-    String 'quote' = scan in string from user for quote using quoteInput scanner
+    String 'quote' = scan in string from user for quote using 'quoteInput' scanner
     print 'Who said it? '
-    String 'author' = scan in string form user for author using authorInput scanner
+    String 'author' = scan in string form user for author using 'authorInput' scanner
     print in one output using println ' 'author' says, \" 'quote' \"'
     use \" to escape the default
     and print the quotes instead of ending print statement quotes*/
