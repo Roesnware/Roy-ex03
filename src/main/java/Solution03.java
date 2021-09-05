@@ -1,7 +1,13 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  Copyright 2021 Trae Roy
+ */
+
 import java.util.Scanner;
 
 public class Solution03 {
-    /* Quotation marks are often used to denote the start and end of a string.
+    /*
+    Quotation marks are often used to denote the start and end of a string.
     But sometimes we need to print out the quotation marks themselves by using escape characters.
 
     Create a program
@@ -13,7 +19,8 @@ public class Solution03 {
     String 'author' = scan in string form user for author using 'authorInput' scanner
     print in one output using println ' 'author' says, \" 'quote' \"'
     use \" to escape the default
-    and print the quotes instead of ending print statement quotes*/
+    and print the quotes instead of ending print statement quotes
+    */
     public static void main(String[] args){
         Scanner authorInput = new Scanner(System.in);
         Scanner quoteInput = new Scanner(System.in);
